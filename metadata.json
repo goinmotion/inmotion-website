@@ -1,0 +1,6 @@
+{
+  "name": "Go Inmotion",
+  "description": "Independent payment gateway advisory helping businesses compare leading payment gateways, negotiate lower transaction fees, and fast-track merchant approval.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

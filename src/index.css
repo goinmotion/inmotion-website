@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --ink: #00112c;
+  --graphite: #0b1526;
+  --muted: #5e6d82;
+  --line: #e4e9f0;
+  --paper: #f7f9fc;
+  --white: #ffffff;
+  --orange: #ff5a14;
+  --red: #e92d13;
+  --amber: #ff8a1d;
+  --green: #0abf53;
+  --blue: #0052cc;
+  --shadow-sm: 0 2px 8px rgba(0, 17, 44, 0.04);
+  --shadow-md: 0 12px 32px rgba(0, 17, 44, 0.08);
+  --shadow-lg: 0 24px 64px rgba(0, 17, 44, 0.12);
+  --radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--ink);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle grid lines */
+.bg-adyen-grid {
+  background-image: radial-gradient(rgba(0, 17, 44, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-adyen-dark-grid {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
